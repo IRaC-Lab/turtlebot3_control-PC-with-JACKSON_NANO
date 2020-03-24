@@ -53,6 +53,24 @@ When we connect between PCs, we can't use 2 roscore. So we have to change value 
 directory of ROS_MASTER_URI : In terminal typed"gedit ~/.bashrc" -> Change value of ROS_MASTER_URI
 
 -----------------------------------------------------------------------------------------------------
+
+# How we can run this file?
+
+1.rosrun roscore
+
+2.roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen
+
+-----------------------------------------------------------------------------------------------------
+
+# How we can test this file without turtlebot3
+
+1.rosrun roscore
+
+2.roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen
+
+3.roslaunch turtlebot3_fake turtlebot3_fake.launch
+
+-----------------------------------------------------------------------------------------------------
 # Requirements
 
 turtlebot3 burger
