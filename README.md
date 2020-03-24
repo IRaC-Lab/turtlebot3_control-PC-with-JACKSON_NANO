@@ -52,15 +52,28 @@ When we connect between PCs, we can't use 2 roscore. So we have to change value 
 
 directory of ROS_MASTER_URI : In terminal typed"gedit ~/.bashrc" -> Change value of ROS_MASTER_URI
 
+In export ROS_HOSTNAME, we typed Enter the ip address of the device.
+
+In export ROS_MASTER_URI, we typed the remotePC IP address.
+
+example.
+if remotePC IP address is xxx.xxx.x.xxx and turtlebot3 IP address is yyy.yyy.y.yyy,
+
+In remotePC /.bashrc file, export ROS_HOSTNAME=xxx.xxx.x.xxx, export ROS_MASTER_URI=http://${ROS_HOSTNAME}:11311
+
+In turtlebot3 /.bashrc file,  export ROS_HOSTNAME=yyy,yyy,y,yyy, export ROS_MASTER_URI=http://xxx.xxx.x.xxx:11311
+
 -----------------------------------------------------------------------------------------------------
 
 ## How we can run this file?
 
 Insturction 
 
-1.roscore
+1.roscore (remote PC)
 
-2.roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen
+2.roslaunch turtlebot3_bringup turtlebot3_robot.launch --screen (turtlebot3)
+
+2.roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen (remote PC)
 
 -----------------------------------------------------------------------------------------------------
 
@@ -68,11 +81,11 @@ Insturction
 
 Insturction 
 
-1.roscore
+1.roscore (remote PC)
 
-2.roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen
+2.roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen (remote PC)
 
-3.roslaunch turtlebot3_fake turtlebot3_fake.launch
+3.roslaunch turtlebot3_fake turtlebot3_fake.launch (remote PC)
 
 -----------------------------------------------------------------------------------------------------
 ## Requirements
