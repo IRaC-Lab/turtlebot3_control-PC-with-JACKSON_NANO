@@ -54,6 +54,9 @@ directory of ROS_MASTER_URI : In terminal typed"gedit ~/.bashrc" -> Change value
 
 -----------------------------------------------------------------------------------------------------
 Requirements
+
 turtlebot3 burger
+
 ROS Melodic
+
 remote PC
