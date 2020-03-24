@@ -58,7 +58,7 @@ directory of ROS_MASTER_URI : In terminal typed"gedit ~/.bashrc" -> Change value
 
 Insturction 
 
-1.rosrun roscore
+1.roscore
 
 2.roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen
 
@@ -68,7 +68,7 @@ Insturction
 
 Insturction 
 
-1.rosrun roscore
+1.roscore
 
 2.roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen
 
