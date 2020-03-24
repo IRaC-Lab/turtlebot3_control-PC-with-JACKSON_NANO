@@ -15,7 +15,7 @@ Second, Setting arduino IDE
 
    3. In arduino IDE Tools -> Board: ~ -> select "OpenCRBoard"
 
-    4.In arduino IDE Tools -> Port: ~ -> Select Connected serial port
+   4.In arduino IDE Tools -> Port: ~ -> Select Connected serial port
 
    5. Check firmware update 
 
