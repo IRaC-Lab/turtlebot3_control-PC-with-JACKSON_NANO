@@ -1,6 +1,6 @@
 # turtlebot3_remote_control
 Controlling a turtlebot via other input.
-
+-----------------------------------------------------------------------------------------------------
 Overview
 This is a part of the project to control Turtlebot3 via ROS Melodic.
 
@@ -23,7 +23,7 @@ Third, Download turtlebot3 burger firmware
 
    2.click Upload button
 
-Fourth, 
+Fourth,  
 
 http://emanual.robotis.com/docs/en/platform/turtlebot3/ros2_setup/#hardware-setup
 
@@ -49,7 +49,7 @@ When we connect between PCs, we can't use 2 roscore. So we have to change value 
 
 directory of ROS_MASTER_URI : In terminal typed"gedit ~/.bashrc" -> Change value of ROS_MASTER_URI
 
-
+-----------------------------------------------------------------------------------------------------
 Requirements
 turtlebot3 burger
 ROS Melodic
