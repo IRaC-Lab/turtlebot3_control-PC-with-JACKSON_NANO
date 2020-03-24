@@ -7,6 +7,7 @@ This is a part of the project to control Turtlebot3 via ROS Melodic.
 First, install arduino IDE
 
 Second, Setting arduino IDE
+
    1. In arduino IDE File -> Preferences ->Additional Boards Manager URLs
       typed "https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json
 
@@ -14,17 +15,19 @@ Second, Setting arduino IDE
 
    3. In arduino IDE Tools -> Board: ~ -> select "OpenCRBoard"
 
-   4.In arduino IDE Tools -> Port: ~ -> Select Connected serial port
+    4.In arduino IDE Tools -> Port: ~ -> Select Connected serial port
 
    5. Check firmware update 
 
 Third, Download turtlebot3 burger firmware
+
    1.In arduino IDE File -> Examples -> turtlebot3 ->turtlebot3_burger -> turtlebot3_core
 
    2.click Upload button
 
-Fourth,  
+Fourth, Installation of Turtlebot 3 Development Environment
 
+Please refer to this site.
 http://emanual.robotis.com/docs/en/platform/turtlebot3/ros2_setup/#hardware-setup
 
 ----------------------------------------------------------------------------------------------------
