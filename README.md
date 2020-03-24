@@ -32,13 +32,13 @@ http://emanual.robotis.com/docs/en/platform/turtlebot3/ros2_setup/#hardware-setu
 
 ----------------------------------------------------------------------------------------------------
 
-# How to control turtlebot3 speed?
+## How to control turtlebot3 speed?
 
 directory: HOME -> catkin_ws -> src -> turtlebot3 -> turtlebot3_teleop -> nodes ->turtlelbot3_teleop_key
 
 Change a value of LIN_VEL_STEP_SIZE and ANG_VEL_STEP_SIZE
 
-# How we can change turtlebot3 control button?
+## How we can change turtlebot3 control button?
 
 directory: HOME -> catkin_ws -> src -> turtlebot3 -> turtlebot3_teleop -> nodes ->turtlelbot3_teleop_key
 
@@ -46,7 +46,7 @@ Change a value of key
 
 -----------------------------------------------------------------------------------------------------
 
-# How we can connect between PCs through ROS?
+## How we can connect between PCs through ROS?
 
 When we connect between PCs, we can't use 2 roscore. So we have to change value of ROS_MASTER_URI
 
@@ -54,7 +54,9 @@ directory of ROS_MASTER_URI : In terminal typed"gedit ~/.bashrc" -> Change value
 
 -----------------------------------------------------------------------------------------------------
 
-# How we can run this file?
+## How we can run this file?
+
+Insturction 
 
 1.rosrun roscore
 
@@ -62,7 +64,9 @@ directory of ROS_MASTER_URI : In terminal typed"gedit ~/.bashrc" -> Change value
 
 -----------------------------------------------------------------------------------------------------
 
-# How we can test this file without turtlebot3
+## How we can test this file without turtlebot3
+
+Insturction 
 
 1.rosrun roscore
 
@@ -71,7 +75,7 @@ directory of ROS_MASTER_URI : In terminal typed"gedit ~/.bashrc" -> Change value
 3.roslaunch turtlebot3_fake turtlebot3_fake.launch
 
 -----------------------------------------------------------------------------------------------------
-# Requirements
+## Requirements
 
 turtlebot3 burger
 
