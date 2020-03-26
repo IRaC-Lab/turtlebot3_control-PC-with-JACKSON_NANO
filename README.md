@@ -7,7 +7,7 @@ This is a part of the project to control Turtlebot3 via ROS Melodic.
 
 ### preparatory stage
 
-**if you aleady use ROS Melodic and turtlebot3, you can pass this stage.**
+**if you already use ROS Melodic and turtlebot3, you can pass this stage.**
 
 First, install arduino IDE
 
