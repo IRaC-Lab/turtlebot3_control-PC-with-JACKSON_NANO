@@ -1,4 +1,4 @@
-# turtlebot3_remote_control
+# turtlebot3_control PC with JACKSON_NANO
 Controlling a turtlebot via other input.
 -----------------------------------------------------------------------------------------------------
 ## Overview
