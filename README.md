@@ -4,7 +4,7 @@ Controlling a turtlebot via other input.
 Overview
 This is a part of the project to control Turtlebot3 via ROS Melodic.
 
-#### preparatory stage
+### preparatory stage
 
 **if you aleady use ROS Melodic and turtlebot3, you can pass this stage.**
 
@@ -36,7 +36,7 @@ http://emanual.robotis.com/docs/en/platform/turtlebot3/ros2_setup/#hardware-setu
 
 -----------------------------------------------------------------------------------------------------
 
-#### Usage
+### Usage
 
 1. $roscore (remote PC)
 
@@ -53,7 +53,7 @@ if you want test file without turtlebot3
 3. $roslaunch turtlebot3_fake turtlebot3_fake.launch (remote PC)
 
 -----------------------------------------------------------------------------------------------------
-#### Requirements
+### Requirements
 
 turtlebot3 burger
 
