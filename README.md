@@ -20,15 +20,15 @@ Second, Setting ARDUINO IDE
 
   3. In ARDUINO IDE Tools -> Board: ~ -> select "OpenCRBoard"
 
-   4.In ARDUINO IDE Tools -> Port: ~ -> Select Connected serial port
+  4. In ARDUINO IDE Tools -> Port: ~ -> Select Connected serial port
 
   5. Check firmware update 
 
 Third, Download TURTLEBOT3 burger firmware
 
-   1.In ARDUINO IDE File -> Examples -> TURTLEBOT3 ->TURTLEBOT3_burger -> TURTLEBOT3_core
+   1. In ARDUINO IDE File -> Examples -> TURTLEBOT3 ->TURTLEBOT3_burger -> TURTLEBOT3_core
 
-   2.click Upload button
+   2. click Upload button
 
 Fourth, Installation of TURTLEBOT3 Development Environment
 
