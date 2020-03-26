@@ -1,7 +1,8 @@
 # turtlebot3_remote_control
 Controlling a turtlebot via other input.
 -----------------------------------------------------------------------------------------------------
-Overview
+## Overview
+
 This is a part of the project to control Turtlebot3 via ROS Melodic.
 
 ### preparatory stage
@@ -44,6 +45,9 @@ http://emanual.robotis.com/docs/en/platform/turtlebot3/ros2_setup/#hardware-setu
 
 3. $roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen (remote PC)
 
+⚠️: Check your ROS server IP setting before use this file. (e.g. ROS_MASTER_URI, ROS_HOSTNAME in bashrc.)
+
+
 if you want test file without turtlebot3
 
 1. $roscore (remote PC)
@@ -51,6 +55,9 @@ if you want test file without turtlebot3
 2. $roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch --screen (remote PC)
 
 3. $roslaunch turtlebot3_fake turtlebot3_fake.launch (remote PC)
+
+⚠️: Check your ROS server IP setting before use this file. (e.g. ROS_MASTER_URI, ROS_HOSTNAME in bashrc.)
+
 
 -----------------------------------------------------------------------------------------------------
 ### Requirements
