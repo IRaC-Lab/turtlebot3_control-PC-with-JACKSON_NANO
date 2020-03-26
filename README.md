@@ -4,6 +4,10 @@ Controlling a turtlebot via other input.
 Overview
 This is a part of the project to control Turtlebot3 via ROS Melodic.
 
+#### preparatory stage
+
+**if you aleady use ROS Melodic and turtlebot3, you can pass this stage.**
+
 First, install arduino IDE
 
 Second, Setting arduino IDE
@@ -30,23 +34,9 @@ Fourth, Installation of Turtlebot 3 Development Environment
 Please refer to this site.
 http://emanual.robotis.com/docs/en/platform/turtlebot3/ros2_setup/#hardware-setup
 
-----------------------------------------------------------------------------------------------------
-
-## How to control turtlebot3 speed?
-
-directory: HOME -> catkin_ws -> src -> turtlebot3 -> turtlebot3_teleop -> nodes ->turtlelbot3_teleop_key
-
-Change a value of LIN_VEL_STEP_SIZE and ANG_VEL_STEP_SIZE
-
-## How we can change turtlebot3 control button?
-
-directory: HOME -> catkin_ws -> src -> turtlebot3 -> turtlebot3_teleop -> nodes ->turtlelbot3_teleop_key
-
-Change a value of key
-
 -----------------------------------------------------------------------------------------------------
 
-## Usage
+#### Usage
 
 1. $roscore (remote PC)
 
@@ -63,7 +53,7 @@ if you want test file without turtlebot3
 3. $roslaunch turtlebot3_fake turtlebot3_fake.launch (remote PC)
 
 -----------------------------------------------------------------------------------------------------
-## Requirements
+#### Requirements
 
 turtlebot3 burger
 
