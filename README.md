@@ -1,5 +1,5 @@
-# turtlebot3_control PC with JACKSON_NANO
-Controlling a turtlebot3 via other input(JACKSON_NANO).
+# turtlebot3_control PC with JETSON_NANO
+Controlling a turtlebot3 via other input(JETSON_NANO).
 -----------------------------------------------------------------------------------------------------
 ## Overview
 
